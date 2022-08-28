@@ -11,7 +11,7 @@ module.exports = {
                 .setName("search")
                 .setDescription("searches for a song.")
                 .addStringOption(option => {
-                    option  
+                    return option  
                         .setName("searchterms")
                         .setDescription("seach keywords")
                         .setRequired(true);
@@ -22,7 +22,7 @@ module.exports = {
                 .setName("playlist")
                 .setDescription("Plays playlist from YT.")
                 .addStringOption(option => {
-                    option 
+                    return option 
                         .setName("url")
                         .setDescription("PlayList url.")
                         .setRequired(true);
@@ -33,7 +33,7 @@ module.exports = {
                 .setName("song")
                 .setDescription("Plays song from YouTube")
                 .addStringOption(option => {
-                    option
+                    return option
                         .setName("url")
                         .setDescription("Url for the song.")
                         .setRequired(true);
