@@ -20,13 +20,21 @@ commands for navigating through all your musical needs.
 ## Getting Started
 
     1. Fork the Repo & Clone it to your machine
+
     2. Log into the Discord Developer Portal(https://discord.com/developers/docs/intro)
+
     3. Under the Application Page, you will be able to start your very own
     app
-    5. Just give the app a name and click "Create"
-    6. Next go to the bot tab and click "Add Bot" and "Yes, Do It" to proceed
-    7. **IMPORTANT**, in the bot tab there will be a token generated, save the token somewhere we will be using it later
-    8. Lastly under the OAuth2 tab in general, there will be a client ID, save that as well
+
+    4. Just give the app a name and click "Create"
+
+    5. Next go to the bot tab and click "Add Bot" and "Yes, Do It" to proceed
+
+    6. **IMPORTANT**, in the bot tab there will be a token generated, save the
+    token somewhere we will be using it later
+    
+    7. Lastly under the OAuth2 tab in general, there will be a client ID, save
+     that as well
 
 ## Adding The Bot To Your Server
 
