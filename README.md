@@ -2,7 +2,7 @@
 # Discord Music Bot (DJmeeseeks)
 
 A bot that can play music through discord channels and run the essential
-commands for navigating through all your musical needs.
+commands for navigating through all your musical needs. 
 
 ## Screenshots
 
@@ -78,6 +78,7 @@ tokens and secrets. A good way to protect your files :).
 
 6. Congrats! your good to go, just head over to your server and start typing commands
 
+7. Note, the command responses are written as if a mr.meeseeks were talking. If you want to change them go into each command file and change the "interaction.reply"s to how you want them :)
 ##  Command List
 
 1. /play
