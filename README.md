@@ -1,35 +1,41 @@
+
 # Discord Music Bot
 
 A bot that can play music through discord channels and run the essential
 commands for navigating through all your musical needs.
 
 ## Screenshots
+
 ![](https://imgur.com/te8E8M1.png)
 ![](https://imgur.com/AwuQ0ts.png)
 ![](https://imgur.com/yTeCUfN.png)
 ![](https://imgur.com/C9HQT4A.png)
 
 ## Technologies Used
-    -Javascript
-    -NodeJs
-    -DiscordAPI
+
+    - Javascript
+    - NodeJs
+    - DiscordAPI
 
 ## Getting Started
+
     1. Fork the Repo & Clone it to your machine
     2. Log into the Discord Developer Portal(https://discord.com/developers/docs/intro)
     3. Under the Application Page, you will be able to start your very own
     app
     5. Just give the app a name and click "Create"
     6. Next go to the bot tab and click "Add Bot" and "Yes, Do It" to proceed
-    7. IMPORTANT, in the bot tab there will be a token generated, save the token somewhere we will be using it later
+    7. **IMPORTANT**, in the bot tab there will be a token generated, save the token somewhere we will be using it later
     8. Lastly under the OAuth2 tab in general, there will be a client ID, save that as well
 
 ## Adding The Bot To Your Server
+
     1. Head to the OAuth2 tab and then to URL Generator
     2. From here under "SCOPES" select bot and then give it any permissions you want, If your not sure which permissions to add... go ahead and give it Administrator
     3. A url will be generated at the bottom, copy and paste the url into your browser and then follow the prompts to add it to your server.
 
 ## Setting Up The Bot
+
     1. You will need to download a few things
         - First you will need to download FFmpeg
             - Download the right one for your operating system
@@ -60,6 +66,7 @@ commands for navigating through all your musical needs.
     6. Congrats! your good to go, just head over to your server and start typing commands
 
 ##  Command List
+
     1. /play
         - subcommands
             - song (plays single song)
