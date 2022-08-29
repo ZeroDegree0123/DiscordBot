@@ -1,5 +1,5 @@
 
-# Discord Music Bot
+# Discord Music Bot (DJmeeseeks)
 
 A bot that can play music through discord channels and run the essential
 commands for navigating through all your musical needs.
