@@ -1,10 +1,10 @@
 const { SlashCommandBuilder } = require("@discordjs/builders");
-const { MessageEmbed } = require("discord.js");
+const { EmbedBuilder } = require("discord.js");
 
 module.exports = {
     data: new SlashCommandBuilder()
-        .setName("pause")
-        .setDescription("Pauses the current song."),
+        .setName("resume")
+        .setDescription("Resumes the current song."),
         
     execute: async ({client, interaction}) => {
         const queue = client.player.getQueue(interaction.guild);
@@ -12,7 +12,7 @@ module.exports = {
             await interaction.reply("There is no song playing.")
             return;
         }
-        queue.setPaused(true);
-        await interaction.reply("Current song has been paused")
+        queue.setPaused(false);
+        await interaction.reply("Resumed playing")
     }
 }
