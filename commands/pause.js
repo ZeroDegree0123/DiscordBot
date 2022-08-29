@@ -13,6 +13,6 @@ module.exports = {
             return;
         }
         queue.setPaused(true);
-        await interaction.reply("Current song has been paused")
+        await interaction.reply("Hi I'm Mr.Meeseeks, Look at me! I paused the song for ya!")
     }
 }
