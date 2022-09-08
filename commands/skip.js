@@ -21,7 +21,7 @@ module.exports = {
         await interaction.reply({
             embeds: [
                 new EmbedBuilder()
-                    .setDescription(`Hi I'm Mr.Meeseeks, Look at me! ${currentSong.title} has been skipped!`)
+                    .setDescription(`I'm Mr.Meeseeks, Look at me! ${currentSong.title} has been skipped!... 'POOF'`)
                     .setThumbnail(currentSong.thumbnail)
             ]
         })

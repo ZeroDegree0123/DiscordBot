@@ -13,6 +13,6 @@ module.exports = {
             return;
         }
         queue.destroy();
-        await interaction.reply("Fine I didn't want to be here anyways :(. . . 'POOF!'")
+        await interaction.reply("Ok! Can Dooo!. . . 'POOF!'")
     }
 }

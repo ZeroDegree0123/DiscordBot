@@ -13,6 +13,6 @@ module.exports = {
             return;
         }
         queue.setPaused(false);
-        await interaction.reply("Hi I'm Mr.Meeseeks, Look at me! I resumed playing the song")
+        await interaction.reply("Yes Sireeee! I resumed playing the song... 'POOF'")
     }
 }

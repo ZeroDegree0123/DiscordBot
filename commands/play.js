@@ -52,7 +52,7 @@ module.exports = {
             const song = result.tracks[0]
             await queue.addTrack(song)
             embed
-                .setDescription(`Hi I'm Mr.Meeseeks, Look at me! I added **[${song.title}](${song.url})** to the Queue`)
+                .setDescription(`OOOOh CAN Doooo! I added **[${song.title}](${song.url})** to the Queue`)
                 .setThumbnail(song.thumbnail)
                 .setFooter({ text: `Duration: ${song.duration}`})
 
@@ -71,7 +71,7 @@ module.exports = {
             const playlist = result.playlist
             await queue.addTracks(result.tracks)
             embed
-                .setDescription(`Hi I'm Sir Meeseeks, Look at me! I added **${result.tracks.length} songs from [${playlist.title}](${playlist.url})** to the Queue`)
+                .setDescription(`OOOOh CAN Doooo! I added **${result.tracks.length} songs from [${playlist.title}](${playlist.url})** to the Queue... 'POOF'`)
                 .setThumbnail(playlist.thumbnail)
         }
 		// } else if (interaction.options.getSubcommand() === "search") {
