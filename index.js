@@ -1,6 +1,7 @@
 // Requiring .env
 require("dotenv").config();
 
+
 // Requiring discord library
 const { REST } = require("@discordjs/rest");
 const { Routes } = require("discord-api-types/v9");
