@@ -43,6 +43,8 @@ client.on("ready", () => {
     const guild_ids = client.guilds.cache.map(guild => guild.id);
     const rest = new REST({version: '9'}).setToken(process.env.TOKEN);
 
+    console.log("ready to go")
+
     for (const guildId of guild_ids) {
         rest.put(Routes.applicationGuildCommands(process.env.CLIENT_ID, guildId), 
             {body: commands})
