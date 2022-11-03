@@ -1,14 +1,15 @@
-// Requiring .env
-require("dotenv").config();
-
-
 // Requiring discord library
-const { REST } = require("@discordjs/rest");
+
+const { REST, DiscordAPIError } = require("@discordjs/rest");
 const { Routes } = require("discord-api-types/v9");
 const { Client, IntentsBitField, Collection } = require('discord.js');
 const { Player } = require("discord-player");
 const fs = require("node:fs");
 const path = require("node:path");
+
+// Requiring .env
+require("dotenv").config();
+
 
 const myIntents = new IntentsBitField();
 myIntents.add(IntentsBitField.Flags.Guilds, IntentsBitField.Flags.GuildMessages, IntentsBitField.Flags.GuildVoiceStates)
@@ -34,7 +35,8 @@ for (const file of commandFiles) {
 client.player = new Player(client, {
     ytdlOptions: {
         quality: "highestaudio",
-        highWaterMark: 1 << 25
+        highWaterMark: 1 << 25,
+        liveBuffer: 20000,
     }
 })
 
