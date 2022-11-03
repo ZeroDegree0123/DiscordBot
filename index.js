@@ -34,8 +34,8 @@ for (const file of commandFiles) {
 
 client.player = new Player(client, {
     ytdlOptions: {
-        quality: "highestaudio",
-        highWaterMark: 1 << 25,
+        quality: "lowestaudio",
+        highWaterMark: 1 << 20,
         liveBuffer: 20000,
     }
 })
